@@ -1,0 +1,40 @@
+/* Add your styles for the CMT UI here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.editor {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    min-height: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.tools {
+    flex-basis: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+}
